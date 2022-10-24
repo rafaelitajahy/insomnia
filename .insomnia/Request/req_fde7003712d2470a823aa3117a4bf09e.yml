@@ -1,0 +1,33 @@
+_id: req_fde7003712d2470a823aa3117a4bf09e
+type: Request
+parentId: fld_9beb7056c1e5468faf982beb6058d9ee
+modified: 1666570264663
+created: 1666569752586
+url: "{{ _.baseURL }}/users/"
+name: Create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Mariane",
+    	"username": "mariane",
+    	"email": "mariane@gmail.com",
+    	"password": "1234",
+    	"driver_license":  "123456"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2fcb44d4220b41dbb3b69c56c8490420
+authentication: {}
+metaSortKey: -1666569752586
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

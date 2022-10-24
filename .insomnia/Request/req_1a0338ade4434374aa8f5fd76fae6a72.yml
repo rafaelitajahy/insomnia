@@ -1,0 +1,25 @@
+_id: req_1a0338ade4434374aa8f5fd76fae6a72
+type: Request
+parentId: fld_9beb7056c1e5468faf982beb6058d9ee
+modified: 1666570273878
+created: 1666570244650
+url: "{{ _.baseURL }}/sessions"
+name: Sessions
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1666570244650
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

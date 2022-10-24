@@ -1,0 +1,35 @@
+_id: req_e32886543671452e9b34d124b8b346e6
+type: Request
+parentId: fld_b24b27d395434f179955aafe8cc9784c
+modified: 1666567340022
+created: 1666566973354
+url: "{{ _.baseURL }}/cars"
+name: Create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Audi",
+      "description": "Carro sport",
+      "daily_rate": 150.00,
+      "license_plate": "DEF-1232",
+      "fine_amount": 100,
+      "brand": "Audi",
+      "category_id": "",
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_258c1b218f674e48b39da940af47df50
+authentication: {}
+metaSortKey: -1666566973354
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

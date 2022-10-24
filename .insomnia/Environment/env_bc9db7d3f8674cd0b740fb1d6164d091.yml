@@ -1,0 +1,14 @@
+_id: env_bc9db7d3f8674cd0b740fb1d6164d091
+type: Environment
+parentId: env_b62ffb7fd4c701dcf31119c7c5a65522d18f38ac
+modified: 1666567957607
+created: 1663876276323
+name: Ignite
+data:
+  baseURL: http://localhost:3334
+dataPropertyOrder:
+  "&":
+    - baseURL
+color: null
+isPrivate: false
+metaSortKey: 1663876276323
