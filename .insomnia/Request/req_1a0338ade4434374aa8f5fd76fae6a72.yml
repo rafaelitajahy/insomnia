@@ -1,7 +1,7 @@
 _id: req_1a0338ade4434374aa8f5fd76fae6a72
 type: Request
 parentId: fld_9beb7056c1e5468faf982beb6058d9ee
-modified: 1666570273878
+modified: 1666728673861
 created: 1666570244650
 url: "{{ _.baseURL }}/sessions"
 name: Sessions
@@ -9,7 +9,11 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    {
+    	"email": "admin@rentx.com.br",
+    	"password": "admin"
+    }
 parameters: []
 headers:
   - name: Content-Type

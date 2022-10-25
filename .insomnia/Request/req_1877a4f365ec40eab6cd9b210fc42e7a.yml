@@ -1,18 +1,18 @@
-_id: req_bb770b0512c5416fb35b5820b13014ac
+_id: req_1877a4f365ec40eab6cd9b210fc42e7a
 type: Request
 parentId: fld_b503e456202d4bbf995f212575d572a5
-modified: 1666729667550
-created: 1666567364585
+modified: 1666729671933
+created: 1666729024866
 url: "{{ _.baseURL }}/categories"
-name: Create
+name: List
 description: ""
-method: POST
+method: GET
 body:
   mimeType: application/json
   text: |-
     {
-    	"name": "Jipe",
-    	"description": "Veículos com tradição off-road"
+    	"name": "Sport",
+    	"description": "Car spoting"
     }
 parameters: []
 headers:
@@ -23,7 +23,7 @@ authentication:
   type: bearer
   token: "{{ _.token }}"
   disabled: false
-metaSortKey: -1666567364585
+metaSortKey: -1666567168969.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
