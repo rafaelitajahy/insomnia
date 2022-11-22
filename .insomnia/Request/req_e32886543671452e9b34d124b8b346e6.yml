@@ -1,7 +1,7 @@
 _id: req_e32886543671452e9b34d124b8b346e6
 type: Request
 parentId: fld_b24b27d395434f179955aafe8cc9784c
-modified: 1666618713316
+modified: 1666907641127
 created: 1666566973354
 url: "{{ _.baseURL }}/cars"
 name: Create
@@ -11,20 +11,22 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name": "Audi",
+    	"name": "Audi 2",
       "description": "Carro sport",
       "daily_rate": 150.00,
-      "license_plate": "DEF-1232",
+      "license_plate": "DEF-1332",
       "fine_amount": 100,
       "brand": "Audi",
-      "category_id": "",
+      "category_id": "4a912293-778f-4fea-8e99-ef73bb3441ff"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
     id: pair_258c1b218f674e48b39da940af47df50
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
 metaSortKey: -1666566973354
 isPrivate: false
 settingStoreCookies: true
