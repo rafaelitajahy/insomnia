@@ -1,0 +1,23 @@
+_id: req_9940e21abab34b13a0ed786eebdd7e51
+type: Request
+parentId: fld_df3933341d744f5988a73d3c815bb4bf
+modified: 1667503426638
+created: 1667503386662
+url: "{{ _.baseURL }}/specifications"
+name: Specifications
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1667503386662
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

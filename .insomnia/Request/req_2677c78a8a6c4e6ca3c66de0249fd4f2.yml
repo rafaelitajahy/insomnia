@@ -1,0 +1,25 @@
+_id: req_2677c78a8a6c4e6ca3c66de0249fd4f2
+type: Request
+parentId: fld_b24b27d395434f179955aafe8cc9784c
+modified: 1667502883153
+created: 1666907401070
+url: "{{ _.baseURL }}/cars/available"
+name: Available
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_1b341a57774b486b81027e78a60d4a17
+    name: name
+    value: Audi 2
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1666907401070
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

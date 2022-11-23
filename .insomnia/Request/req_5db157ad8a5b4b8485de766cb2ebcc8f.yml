@@ -1,0 +1,39 @@
+_id: req_5db157ad8a5b4b8485de766cb2ebcc8f
+type: Request
+parentId: fld_b24b27d395434f179955aafe8cc9784c
+modified: 1667587951866
+created: 1667508650712
+url: "{{ _.baseURL }}/cars/images/bde16c7d-bc65-45cf-9fdd-539624c29f12"
+name: Images
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_42de80e263a2449ea61ef5b5b2f82da9
+      name: images
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\rafael.carvalho\Pictures\blue-sport-sedan-parked-in-the-yard.jpg
+    - id: pair_a7a5b7687e744b798d3910f1ea015526
+      name: images
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\rafael.carvalho\Pictures\red-luxury-sedan-on-the-road.jpg
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1667508650712
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

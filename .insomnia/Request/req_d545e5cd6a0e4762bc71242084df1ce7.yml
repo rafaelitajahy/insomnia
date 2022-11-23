@@ -1,27 +1,28 @@
-_id: req_9e3bd52a1e1844fb895dbd7479a04c1e
+_id: req_d545e5cd6a0e4762bc71242084df1ce7
 type: Request
-parentId: fld_cd81dc304cfc40f19cbef54f4defdc01
-modified: 1669235748491
-created: 1669206741624
-url: "{{ _.baseURL }}/rentals/"
-name: Create
+parentId: fld_df3933341d744f5988a73d3c815bb4bf
+modified: 1667503507355
+created: 1667503047771
+url: "{{ _.baseURL }}/specifications"
+name: Specifications
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |-
+  text: |
     {
-    	"expected_return_date": "2022-11-25T12:59:47.418Z",
-    	"car_id": "5ea0d11a-4686-4e18-8d2f-f08e2fa6f47d"
+    	"name":"Câmbio",
+    	"description":"CVT de 11 marchas"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_333e160392c542a194f32c2d000522ba
 authentication:
   type: bearer
   token: "{{ _.token }}"
-metaSortKey: -1669206741624
+metaSortKey: -1667503047771
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
