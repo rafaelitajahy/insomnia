@@ -1,12 +1,12 @@
 _id: env_bc9db7d3f8674cd0b740fb1d6164d091
 type: Environment
 parentId: env_b62ffb7fd4c701dcf31119c7c5a65522d18f38ac
-modified: 1669151260237
+modified: 1669207795660
 created: 1663876276323
 name: Ignite
 data:
   baseURL: http://localhost:3334
-  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjkxNTEyMzYsImV4cCI6MTY2OTIzNzYzNiwic3ViIjoiMmU5ZDEzMjYtY2FhMy00MDhhLThmY2ItMTViNTMwYzYzYjIzIn0.4rOTtQ6O-RHkBXX-EDy6PZJuFZWevs1whlpjffb2968
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjkyMDc3NjYsImV4cCI6MTY2OTI5NDE2Niwic3ViIjoiMTRlYjgzOTUtN2MwMC00MWI0LWJhOTQtMDExMmNhNWI2NjllIn0.H8gGgp_UYeM2JFW1p8MqG57974yfJkZztIvtSghqW6I
 dataPropertyOrder:
   "&":
     - baseURL

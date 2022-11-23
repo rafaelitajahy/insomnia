@@ -1,29 +1,27 @@
-_id: req_1877a4f365ec40eab6cd9b210fc42e7a
+_id: req_9e3bd52a1e1844fb895dbd7479a04c1e
 type: Request
-parentId: fld_b503e456202d4bbf995f212575d572a5
-modified: 1669207828570
-created: 1666729024866
-url: "{{ _.baseURL }}/categories"
-name: List
+parentId: fld_cd81dc304cfc40f19cbef54f4defdc01
+modified: 1669208408677
+created: 1669206741624
+url: "{{ _.baseURL }}/rentals/"
+name: Create
 description: ""
-method: GET
+method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"name": "Sport",
-    	"description": "Car spoting"
+    	"expected_return_date": "2022-11-25T12:59:47.418Z",
+    	"car_id": "5ea0d11a-4686-4e18-8d2f-f08e2fa6f47d"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_89305c9e0f154d9990050420bce6045a
 authentication:
   type: bearer
   token: "{{ _.token }}"
-  disabled: false
-metaSortKey: -1666567168969.5
+metaSortKey: -1669206741624
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
