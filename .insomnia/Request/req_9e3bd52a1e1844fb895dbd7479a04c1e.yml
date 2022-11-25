@@ -1,7 +1,7 @@
 _id: req_9e3bd52a1e1844fb895dbd7479a04c1e
 type: Request
 parentId: fld_cd81dc304cfc40f19cbef54f4defdc01
-modified: 1669235748491
+modified: 1669420052768
 created: 1669206741624
 url: "{{ _.baseURL }}/rentals/"
 name: Create
@@ -11,8 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"expected_return_date": "2022-11-25T12:59:47.418Z",
-    	"car_id": "5ea0d11a-4686-4e18-8d2f-f08e2fa6f47d"
+    	"expected_return_date": "2022-11-27T12:59:47.418Z",
+    	"car_id": "bde16c7d-bc65-45cf-9fdd-539624c29f12"
     }
 parameters: []
 headers:
